@@ -1,7 +1,8 @@
 var mongoose= require("mongoose")
 
 var listSchema= new mongoose.Schema({
-event:String,
+absence: String,
+reason:String,
 start_date:Date,
 end_date:Date,
 created_date:{
